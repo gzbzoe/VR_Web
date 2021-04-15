@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="description" content="未来就在眼前">
+<meta name="keywords" content="虚拟现实，Virtual Reality，VR">
+<meta name="author" content="支晓阳">
+<title>虚拟现实</title>
+	<link type="text/css" rel="stylesheet" href="css/Firpage.css">
+	<link type="text/css" rel="stylesheet" href="css/animate.css">
+</head>
+
+<body>
+	<div class="all">
+		<!--头部-->
+		<div class="header">
+			<div class="logo">
+				<img src="images/logo.png" alt="logo" height="50px">
+				<span>Virtual</span>&nbsp;&nbsp;<span>Reality</span>
+			</div>
+			<div class="title">
+				<img src="images/title_vr3.png" alt="vr">
+			</div>
+			<!--<div class="vice-title"><p>让部分人先看到未来</p></div>-->
+			<div class="back">
+				<a href="first.html"><img src="images/return4.png"  alt="back" height="40px" style="margin-left: 50%"></a>
+			</div>
+		</div>
+		
+		
+		
+		<!--内容-->
+		<div class="content">
+			<!--背景小圆-->
+			<div>
+				<div class="backg" id="b1"></div>
+				<div class="backg" id="b12"></div>
+				<div class="backg" id="b13"></div>
+				<div class="backg" id="b14"></div>
+			  <div class="backg" id="b15"></div>
+				<div class="backg2" id="b2"></div>
+				<div class="backg2" id="b21"></div>
+			  <div class="backg2" id="b22"></div>
+			  <div class="backg2" id="b23"></div>
+			  <div class="backg2" id="b24"></div>
+			  <div class="backg2" id="b25"></div>
+			  <div class="backg3" id="b3"></div>
+			  <div class="backg3" id="b31"></div>
+			  <div class="backg3" id="b32"></div>
+			  <div class="backg3" id="b33"></div>
+			  <div class="backg3" id="b34"></div>
+			  <div class="backg3" id="b35"></div>
+				
+		  </div>
+			<!--<div><img src="images/bg.png" style="position: relative;top:80px;left:100px"></div>-->
+			<!--五大版块-->
+			<a href="../use/use.html"><div class="use"><span>Use</span></div></a>
+			<a href="../About/about.html"><div class="about"><span>About</span></div></a>
+			<a href="../Devices/devices.html"><div class="devices"><span>Device</span></div></a>
+			<a href="../correlation/correlation.html"><div class="correlation"><span>Correlation</span></div></a>
+			<a href="../company/company.html"><div class="company"><span>Company</span></div></a>
+  	  </div>
+		
+		
+		
+		<!--底部-->
+		<div class="down">
+			<!--背景乐-->
+			<div class="music">
+				<audio id="myaudio" loop="loop"  preload="auto" autoplay="autoplay">
+						<source src="Senses.ogg" type="audio/ogg" />
+						<source src="Senses.mp3" type="audio/mp3" />
+	   			</audio>            
+	  			<img id="play" onClick="swap_music()" src="images/music_play.png" alt="" style="height:40px; position:relative;top:25%;left:-30%;"/>   
+			</div>
+			
+			<!--联系我-->
+			<div class="contact">
+				<a href="javascript:open()" >
+					<img id="mes" src="images/message.png" alt="" style="height:30px; position:relative;top:30%;left:10%">
+				</a>
+			</div>
+		</div>
+	</div>
+	<!--背景遮罩-->
+	<div id="bg"></div>
+	<!--留言板-->
+	<div id="message">
+		    <a  id="close" href="javascript:close()">
+				<img src="images/close.png" alt="close" height="30px" style="">
+			</a>
+            <iframe src="form.html" srolling="no" frameborder="0"></iframe>
+	</div>
+	
+	
+	<script>
+		/*背景音乐的控制*/
+		function swap_music() {
+            var Audio = document.getElementById('myaudio');
+		    var play=document.getElementById('play');
+			var ostop=document.getElementById('stop');
+			
+            if (Audio.paused) {
+                Audio.play(); 
+				play.src="images/music_play.png";  //播放音乐
+            }
+            else {
+                Audio.pause(); 
+				play.src="images/music_stop.png";  //停止音乐
+            }
+        }
+		
+		
+		/*显示留言板 实现遮罩*/
+		function open() {
+                var s = document.getElementById("bg");  //打开遮罩
+                s.style.display = "block";
+
+                var l = document.getElementById("message");   //显示留言板
+                l.style.display = "block";
+            }
+		function close() {
+                var s = document.getElementById("bg");    //关闭遮罩
+                
+
+                var l = document.getElementById("message");  //关闭留言板
+              s.style.display = "none";
+				 l.style.display = "none";
+			
+            }
+	</script>
+	
+</body>
+</html>

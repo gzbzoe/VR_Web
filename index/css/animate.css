@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* CSS Document */
+/*页面淡入淡出*/
+body{
+	animation: fadein;
+	animation-duration: 4s;
+	animation-direction: normal;
+}
+@keyframes fadein{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+
+/*五大版块*/
+.use:hover{
+		animation:updown ;
+        animation-duration: 10s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite; 
+		animation-direction:alternate;
+}
+.about:hover{
+		animation:updown ;
+        animation-duration: 10s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite; 
+		animation-direction:alternate;
+
+
+}
+.devices:hover{
+		animation:updown ;
+        animation-duration: 10s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite; 
+		animation-direction:alternate;
+}
+.correlation:hover{
+		animation:updown ;
+        animation-duration: 10s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite; 
+		animation-direction:alternate;
+}
+.company:hover{
+		animation:updown ;
+        animation-duration: 10s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite; 
+		animation-direction:alternate;
+}
+@keyframes updown{
+	from {
+    transform: translate(0, 10px);
+		
+  }
+ to {
+   transform: translate(0, 0);
+	 
+  }
+}
+
+
+/*背景小圆闪烁*/
+.backg{
+        animation:shanshuo1 ;
+        animation-duration: 1s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite; 
+		animation-direction:normal;
+}
+.backg2{
+        animation:shanshuo2 ;
+        animation-duration: 2s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite; 
+		animation-direction:normal;
+}
+.backg3{
+        animation:shanshuo3 ;
+        animation-duration: 1s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite; 
+		animation-direction:normal;
+}
+@keyframes shanshuo1 {
+      0% {
+            
+				-webkit-transform: scale(0);
+  				transform: scale(0);
+			
+	}
+	50%{
+		opacity: 1
+	}
+        
+	100%{
+		-webkit-transform: scale(0.4);
+  		transform: scale(0.4);
+				opacity: 0.5
+			
+			}
+}
+@keyframes shanshuo2 {
+     0% {
+            
+		-webkit-transform: scale(0);
+  		transform: scale(0);
+			
+	}
+	50%{
+		opacity: 1
+	}
+        
+	100%{
+		-webkit-transform: scale(0.5);
+ 		 transform: scale(0.5);
+		opacity: 0.5
+	}
+}
+@keyframes shanshuo3 {
+       0% {
+            
+			-webkit-transform: scale(0);
+  			transform: scale(0);
+			
+	}
+	50%{
+		opacity: 1
+	}
+        
+	100%{
+		-webkit-transform: scale(0.3);
+  		transform: scale(0.3);
+		opacity: 0.5
+	}
+}
+
+
+

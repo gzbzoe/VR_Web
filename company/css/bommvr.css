@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family:"张海山锐线体简";
+	src: url(../../font/张海山锐线体简.woff) format('woff');}
+.all{
+			/*border-style: solid;
+			border-width:1px;*/
+			height:1900px;
+			
+}
+hr{
+	transform: rotate(90deg);
+	width:100px;
+			
+}
+.name{
+	margin-top:40px;
+	font-size:22px;
+	font-family: arvo;
+}
+img{
+	box-shadow: 0 40px 35px -15px rgba(0,0,0,0.44);
+}
+h3{
+	font-family: arvo;
+	font-style: italic;
+}
+.button{
+		
+	width:80px;
+	height:80px;
+	border-style: solid;
+	border-width:1px;
+	border-color:#161314;
+	border-radius: 100%;
+	text-align: center;
+	box-shadow: 2px 2px 20px 0px #061124;
+}
+a{
+	text-decoration: none;
+	color:rgba(7,7,7,1.00);
+	font-size:25px;
+	font-family: arvo;
+	position: relative;
+	top:25%;
+}
+.button:hover{
+	background: rgba(0,0,0,0.48);
+}
+p{
+	font-family: "张海山锐线体简";
+}

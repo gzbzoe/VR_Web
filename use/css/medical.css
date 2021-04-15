@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family:"张海山锐线体简";
+	src: url(../../font/张海山锐线体简.woff) format('woff');}
+.title{
+	font-size:60px;
+	font-weight: 500;
+	
+	margin-top: -50px;
+	color:aliceblue;
+	margin-left: 60px;
+}
+ul{
+	
+	list-style-image:url(../images/菱形.png);
+}
+ul li{
+	margin-left: 60px;
+	color:aliceblue;
+	font-size:25px;
+	font-family:"张海山锐线体简";
+	line-height: 2.0em;
+	
+	letter-spacing: 5px;
+	
+}
+.dot1{
+	border-radius: 100%;
+	width:6px;
+	height:6px;
+	background:white;
+	position: relative;
+	left:80px;
+}
+.dot2{
+	border-radius: 100%;
+	width:6px;
+	height:6px;
+	background:white;
+	position: relative;
+	left:100px;
+	top:-5px;
+}
+.dot3{
+	border-radius: 100%;
+	width:6px;
+	height:6px;
+	background:white;
+	position: relative;
+	left:120px;
+	top:-11px;
+}

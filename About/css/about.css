@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family:"张海山锐线体简";
+	src: url(../../font/张海山锐线体简.woff) format('woff');}
+body{
+	background-image: linear-gradient(to top, #ea2b5e 0%, #112a53  70%);
+	/*background-image: linear-gradient(to top, #434343 0%, black  100%);*/
+}
+.all{
+	width:100%;
+	/*border-style: solid;
+	border-width:2px; 
+	border-color:green;*/
+	height:774px;
+	
+}
+
+.head{
+	width:100%;
+	/*border-style: solid;
+	border-width:2px;*/ 
+	border-color:green;
+	height: 20%;
+}
+.logo{
+	width:10%;
+	/*border-style: solid;
+	border-width:2px;*/ 
+	border-color:blue;
+	height: 100%;
+	text-align: center;
+}
+.logo span{
+	font-family:arvo;
+	color:#ea2b5e;
+	
+}
+/*导航*/
+.nav{
+	width:40%;
+/*	border-style: solid;
+	border-width:2px;*/ 
+	border-color:blue;
+	height: 100%;
+	margin:-10.5% 30%;
+	text-align: center;
+}
+.nav ul{
+	width:50%;
+	height:40px;
+	margin: 58.5px 25%;
+	padding:0px;
+	text-align:center;
+	box-sizing: border-box;
+}
+.nav ul li{
+	float:left;
+	/*border-style: solid;
+	border-width: 1px;*/
+	height:40px;
+	width:48%;
+	list-style: none;
+	text-align:center;
+	vertical-align: center;
+   box-sizing: border-box;
+}
+.nav ul li a{
+/*	border-style: solid;
+	border-width: 1px;*/
+	width:78.4px;
+	height: 50px;
+	font-size:20px;
+	text-decoration:none;
+	color:black;
+	font-weight: 100;
+	font-family: "张海山锐线体简";
+	padding-bottom:8px;
+}
+.nav ul li a:hover{
+	border-bottom: #ea2b5e;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+.y{
+/*	border-right-style: solid;
+	border-right-width: 1px;*/
+	border-right: solid 1px #ea2b5e;
+}
+
+
+.back{
+	width:10%;
+/*	border-style: solid;
+	border-width:2px; 
+	border-color:blue;*/
+	height: 100%;
+	margin:-12% 90%;
+}
+
+
+.content{
+	width:100%;
+/*	border-style: solid;
+	border-width:2px; 
+	border-color:green;*/
+	height: 80%;
+}
+.con{
+	width:100%;
+	height:100%;
+}

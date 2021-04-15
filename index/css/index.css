@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family:"张海山锐线体简";
+	src: url(../../font/张海山锐线体简.woff) format('woff');}
+		.bg{
+			opacity: 0;
+			animation: fadein;
+			animation-duration: 4s;
+			animation-direction: normal;
+			text-align: center;
+			margin-top:20%;
+		}
+		.into{
+			background:rgba(4,4,4,1.00);
+			border-radius: 25%;
+			width:100px;
+			height:50px;
+			text-align: center;
+			font-size: 25px;
+			box-shadow: 0 40px 35px -15px #b1b0b0;
+			font-family: arvo;
+			margin:-8% 46%;
+			animation: fadein2;
+			animation-duration: 6s;
+			animation-direction: normal;
+		}
+		a{
+			text-decoration: none;
+			color:aliceblue;
+			position: relative;
+			top:8px;
+		}
+		@keyframes fadein2{
+			0%{
+				opacity: 0;
+			}
+			50%{
+				opacity: 0;
+			}
+			100%{
+				opacity: 1;
+			}
+		}
+			@keyframes fadein{
+			0%{
+				opacity: 0;
+			}
+			50%{
+				opacity: 1;
+			}
+			100%{
+				opacity: 0;
+			}
+}

@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family:"张海山锐线体简";
+	src: url(../../font/张海山锐线体简.woff) format('woff');}
+.left{
+	/*border-width: 2px;
+	border-style: solid;*/
+	width:39%;
+	float:left;
+	height:600px;
+	
+}
+.name{
+	margin-left: 80px;
+	margin-top: 80px;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: arvo;
+	color: aliceblue;
+	  background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(rgba(234,43,94,1.00)), to(rgba(17,42,83,1.00)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+p{
+	width:50%;
+	height:10%;
+	margin-left: 80px;
+	margin-top: 50px;
+	font-family:"张海山锐线体简";
+	line-height: 1.5em;
+	color: aliceblue;
+}
+.more{
+	width:100px;
+	height:30px;
+	/*border-style: solid;
+	border-width:2px;*/
+	border-color:aliceblue;
+	border-radius: 10%;
+	text-align: center;
+	margin-left:80px;
+	margin-top: 130px;
+	box-shadow: 2px 2px 20px 0px rgba(234,43,94,1.00);
+	  background: rgba(234,43,94,1.00)
+    
+	/*color:rgba(244,242,242,0.60)*/
+}
+.more span{
+	color: rgba(17,42,83,1.00);
+}
+a{
+	text-decoration: none;
+	font-size: 20px;
+	font-family:"张海山锐线体简";
+	color:black;
+}
+.right{
+/*	border-width: 2px;
+	border-style: solid;*/
+	width:61%;
+	margin-left: 45%;
+	
+	
+	
+}
+.mr{
+	margin-left:10%;
+	height: 500px;
+	margin-top:8%;
+}
